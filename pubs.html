@@ -20,15 +20,17 @@
 
 <div class="bibtex_template">
   <div class="if author" style="font-weight: bold;">
-    <span class="if year">
-      <span class="year"></span>. &nbsp;
-    </span>
-    <span class="author"></span>
-    <div class="if BIBTEXTYPEKEY==@BOOK">
+  <span class="if year">
+    <span class="year"></span>. &nbsp;
+  </span>
+  <span class="author"></span>
+  <div class="if BIBTEXTYPEKEY==@BOOK">
       <em><span class="title"></span></em>
-        <div class="if BIBTEXTYPEKEY!=@BOOK">
-          "<span class="title"></span>
-        </div>
+  </div>
+  <div class="if BIBTEXTYPEKEY!=@BOOK">
+    "<span class="title"></span>""
+  </div>
+</div>
 
 
     <span class="if url" style="margin-left: 20px">
