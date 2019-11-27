@@ -1,5 +1,11 @@
+@font-face {
+    font-family: 'LinuxLibertineORegular';
+    src: url('/assets/fonts/linux-libertine/41c74aace28c60327320360d9fca54c0/988f66c65b10dd49d02579bed6e3aa74/LinuxLibertineORegular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
 BODY {
-	font-family:'Source Sans Pro', sans-serif;
+	font-family:'LinuxLibertineORegular', serif;
 	margin-top:20px;
 	text-align: left;
 }
