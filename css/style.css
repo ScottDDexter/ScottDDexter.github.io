@@ -1,11 +1,46 @@
 @font-face {
+    font-family: 'LinuxLibertineDisplayORegular';
+    src: url('https://fontlibrary.org/assets/fonts/linux-libertine/41c74aace28c60327320360d9fca54c0/74c7e1c4dc53e459bd7df26de6925229/LinuxLibertineDisplayORegular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LinuxBiolinumOBold';
+    src: url('https://fontlibrary.org/assets/fonts/linux-biolinum/bf09d0a7996862dc34102dc51c500ace/c3192f41093de33ae234ef7872acd5bd/LinuxBiolinumOBold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LinuxBiolinumOItalic';
+    src: url('https://fontlibrary.org/assets/fonts/linux-biolinum/bf09d0a7996862dc34102dc51c500ace/f1a3c5609d4f5f9a27c8bce71638b0ae/LinuxBiolinumOItalic.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'LinuxBiolinumORegular';
+    src: url('https://fontlibrary.org/assets/fonts/linux-biolinum/bf09d0a7996862dc34102dc51c500ace/d0073c4d7149ec31d8ebf8eea691743c/LinuxBiolinumORegular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FantasqueSansMonoRegular';
+    src: url('https://fontlibrary.org/assets/fonts/fantasque-sans-mono/99bd6bf2755c7f6b5f5c62daf6807aea/f47be69e1b8c931931d2da5b5e9e9797/FantasqueSansMonoRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
     font-family: 'LinuxLibertineORegular';
     src: url('/assets/fonts/linux-libertine/41c74aace28c60327320360d9fca54c0/988f66c65b10dd49d02579bed6e3aa74/LinuxLibertineORegular.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
+
 BODY {
-	font-family:'LinuxLibertineORegular', serif;
+	font-family:'LinuxBiolinumORegular', sans-serif;
 	margin-top:20px;
 	text-align: left;
 }
@@ -30,9 +65,16 @@ A:visited {
 }
 
 h1 {
+  font-family: 'LinuxLibertineDisplayORegular';
   text-align: center;
-  font-size: larger;
-  font-weight: 200;
+  font-size: largest;
+  font-weight: 600;
+}
+
+h2 {
+    font-family: 'LinuxLibertineDisplayORegular';
+    font-size: larger;
+    font-weight: 600;
 }
 
 pre {
