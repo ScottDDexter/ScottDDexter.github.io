@@ -88,6 +88,9 @@ h2 {
     font-weight: 600;
 }
 
+ul {
+    margin-left: 0;
+}
 .teaching li, .research li, header li {
     list-style-type: none;
     padding-left: 0;
