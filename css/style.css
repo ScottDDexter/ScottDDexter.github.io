@@ -98,8 +98,9 @@ header li {
 }
 
 .research li {
-    line-height: 1.5;
+    margin-bottom: 10%;
 }
+
 pre {
 	white-space:pre-wrap;
 	white-space:-moz-pre-wrap;
