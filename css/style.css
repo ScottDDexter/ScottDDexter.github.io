@@ -77,6 +77,10 @@ h2 {
     font-weight: 600;
 }
 
+.teaching ul, .research ul {
+    list-style-type: none;
+}
+
 pre {
 	white-space:pre-wrap;
 	white-space:-moz-pre-wrap;
@@ -90,7 +94,7 @@ pre {
 	border:1px solid #bebab0;
 }
 
-#container {
+header {
 	margin:0 auto;
 	max-width:900px;
 	text-align:left;
