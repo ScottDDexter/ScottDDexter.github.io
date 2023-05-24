@@ -49,6 +49,11 @@ body {
 
 .flexing {
     display: flex;
+    flex-wrap: wrap;
+}
+
+.term {
+    flex: 200px;
 }
 
 strong {
@@ -85,8 +90,12 @@ h2 {
 
 .teaching li, .research li, header li {
     list-style-type: none;
+    padding-left: 0;
 }
 
+header li {
+    align-self: center;
+}
 pre {
 	white-space:pre-wrap;
 	white-space:-moz-pre-wrap;
