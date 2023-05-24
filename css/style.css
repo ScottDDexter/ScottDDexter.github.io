@@ -96,6 +96,10 @@ h2 {
 header li {
     align-self: center;
 }
+
+.research li {
+    line-height: 1.5;
+}
 pre {
 	white-space:pre-wrap;
 	white-space:-moz-pre-wrap;
