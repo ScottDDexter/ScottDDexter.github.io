@@ -46,7 +46,10 @@ body {
 	text-align: left;
     margin:0 auto;
 }
-	
+
+.flexing {
+    display: flex;
+}
 
 strong {
 	color:#799131;
@@ -70,17 +73,17 @@ a:visited {
 h1 {
   font-family: 'LinuxLibertineDisplayORegular';
   text-align: center;
-  font-size: largest;
+  font-size: x-large;
   font-weight: 600;
 }
 
 h2 {
     font-family: 'LinuxLibertineDisplayORegular';
-    font-size: larger;
+    font-size: large;
     font-weight: 600;
 }
 
-.teaching li, .research li {
+.teaching li, .research li, header li {
     list-style-type: none;
 }
 
